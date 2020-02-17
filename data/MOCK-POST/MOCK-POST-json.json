@@ -1,0 +1,14 @@
+{
+	"id":1581821379669,
+	"requestMethod":"POST",
+	"requestParamTemplate":"{\"name\":\"\",\"age\":\"30\"}",
+	"requestScript":"",
+	"requestUrl":"/test/mockjson",
+	"responseCondition":[
+		{
+			"resCondition":"true",
+			"resValue":"{\"name\":\"${/name}\",\"retCode\":\"${/age}\"}"
+		}
+	],
+	"responseScript":""
+}
